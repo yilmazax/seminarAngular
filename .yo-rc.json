@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "seminar",
+    "packageName": "com.yilmaz.seminarserver",
+    "packageFolder": "com/yilmaz/seminarserver",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "tr",
+    "languages": [
+      "cs",
+      "en",
+      "de",
+      "ru",
+      "es",
+      "tr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.1",
+    "jwtSecretKey": "ZmZiYTExZmYzOWZkZjA5YzQ5YmRhMjlhMzMzNTIyNjlmODI3NzZiNjZjN2RiNzhiZjIzNGI3ZmUzYzM1ODVlNDQyNGZiOWMwODRkY2ViOTRjNjc5NTM2MzE5MzMwMDRmNWRhYjFjMDNhNjA1ZWMzNmI1MDhlNDI0MThjMzVlMDQ=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "yilmazax",
+  "repository-name": "seminarAngular"
+}
